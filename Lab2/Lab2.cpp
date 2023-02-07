@@ -35,7 +35,15 @@ int main()
 		else {
 
 			reverse(sorted_values, sorted_values + size(sorted_values));
-			if (equal(values, values + size(values), sorted_values));
+			// Проверка на отсутствие одинаковых элементов
+			bool setLike = true;
+			for (int i = 0; i < size(sorted_values) - 1; i++) {
+				if (sorted_values[i] == sorted_values[i + 1]) {
+					setLike = false;
+					break;
+				}
+			}
+			if (equal(values, values + size(values), sorted_values) && setLike);
 			else {
 				for (int i = 0; i < size(values); i++) {
 					values[i] *= values[i];
