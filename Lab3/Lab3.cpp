@@ -2,7 +2,7 @@
 using namespace std;
 
 
-float GetRowMember(int k, int x) {
+float GetRowMember(int k, float x) {
     return (k / (k + 1)) - (float)pow(cos(abs(x)), k);
 }
 
