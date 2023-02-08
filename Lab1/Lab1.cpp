@@ -15,10 +15,14 @@ public:
 		this->y = y;
 		this->z = z;
 	}
-	Vector3Float() {}
+	Vector3Float() {
+		this->x = 0;
+		this->y = 0;
+		this->z = 0;
+	}
 	float operator*(const Vector3Float &b) {
 		return this->x * b.x + this->y * b.y + this->z * b.z;
-}
+	}
 private:
 	Vector3Float normalize() {
 		float length = Length();
