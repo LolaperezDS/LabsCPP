@@ -1,4 +1,4 @@
 Yarik;Karov;3238;5;5;5;5;5;5
 Samat;Sadriev;3238;5;5;5;5;5
-Anoxin;Huila;3238;3;3;3;2;3
-Nikita;Eblo;3238;3;4;5;4
+Anoxin;Hahaha;3238;3;3;3;2;3
+Nikita;Android;3238;3;4;5;4
