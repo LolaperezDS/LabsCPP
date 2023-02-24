@@ -18,7 +18,7 @@ int main()
 
 
 	int array_l;
-	cout << "Введите длинну массива: ";
+	cout << "Введите длину массива: ";
 	cin >> array_l;
 	vector<float> values;
 	vector<float> sorted_values;
@@ -26,7 +26,7 @@ int main()
 	case 1:
 
 		for (int i = 0; i < array_l; i++) {
-			values.push_back(rand() / 100);
+			values.push_back((float)rand() / 100);
 		}
 		//решение задачи---------------------------------------------------------------------------------	
 		sorted_values = values;
