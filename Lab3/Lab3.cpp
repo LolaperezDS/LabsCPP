@@ -3,7 +3,7 @@ using namespace std;
 
 
 float GetRowMember(int k, float x) {
-    return (k / (k + 1)) - (float)pow(cos(abs(x)), k);
+    return ((float)k / ((float)k + 1)) - (float)pow(cos(abs(x)), (float)k);
 }
 
 
